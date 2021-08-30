@@ -1,12 +1,25 @@
 
 /*
 * WCNI2021-Custom-CSS
-* Custom CSS for WordCamp Managua 2021
+* Custom CSS for WordCamp Nicaragua 2021
 */
 
 // Global.
+@import 'fonts.scss';
 @import 'vars.scss';
 @import 'nav.scss';
 
+//components
+@import 'components/buttons.scss';
+@import 'components/entry-header.scss';
+@import 'components/post-inner.scss';
+@import 'components/_menu.scss';
+
 //Pages
 @import 'pages/home.scss';
+
+body{
+	font-family: $generalFont!important;
+}
+
+
