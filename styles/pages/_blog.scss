@@ -1,4 +1,22 @@
 .blog{
+	body{
+		background-color:$white;
+	}
+
+	.faux-button{
+	background-color: $white;
+	border: 2px solid $dark-purple!important;
+	border-radius: 8px;
+	color: $dark-purple;
+}
+
+	.faux-button:hover{
+	background-color: $dark-purple!important;
+	border: 2px solid $dark-purple!important;
+	border-radius: 8px;
+	color: $white;
+	text-decoration: none!important;
+	}
 
 	.post{
 		background-color: $white;
@@ -8,6 +26,10 @@
 	}
 
 	.footer-nav-widgets-wrapper{
-		background-color: $darkpurple!important;
+		background-color: $dark-purple!important;
+	}
+
+	.entry-content{
+		font-family:$generalFont!important;
 	}
 }
