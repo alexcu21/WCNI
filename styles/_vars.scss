@@ -1,8 +1,13 @@
-//colors
+// Colors
 $dark-purple: #330066;
 $white: #ffffff;
 $red: #ff3366;
 $pink: #F6EFFC;
+$accent: #33CCCC;
 
-// fonts
+// Fonts
 $generalFont: "Avenir";
+
+// Mix
+$transition-all: all 150ms cubic-bezier(.17,.67,1,.56);
+$box-shadow-global: 0px 60px 66px rgba(133, 85, 188, 0.2);

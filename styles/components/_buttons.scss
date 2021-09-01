@@ -5,12 +5,12 @@
 	border: 2px solid $dark-purple!important;
 	border-radius: 8px;
 	color: $dark-purple;
-}
-
-.wp-block-button__link:hover{
-	background-color: $dark-purple!important;
-	border: 2px solid $dark-purple!important;
-	border-radius: 8px;
-	color: $white;
-	text-decoration: none!important;
+	transition: $transition-all;
+	&:hover{
+		background-color: $dark-purple!important;
+		border: 2px solid $dark-purple!important;
+		border-radius: 8px;
+		color: $white !important;
+		text-decoration: none!important;
+	}
 }
