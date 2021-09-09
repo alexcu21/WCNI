@@ -13,15 +13,16 @@
 @import 'components/buttons.scss';
 @import 'components/entry-header.scss';
 @import 'components/post-inner.scss';
-@import 'components/_menu.scss';
-@import 'components/_site-footer.scss';
-@import 'components/_sponsors.scss';
+@import 'components/menu.scss';
+@import 'components/site-footer.scss';
+@import 'components/sponsors.scss';
 
 //Pages
 @import 'pages/home.scss';
 @import 'pages/single.scss';
 @import 'pages/blog.scss';
 @import 'pages/page.scss';
+@import 'pages/registration.scss';
 
 
 body{
