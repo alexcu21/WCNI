@@ -19,9 +19,10 @@
 
 //Pages
 @import 'pages/home.scss';
+@import 'pages/single.scss';
 @import 'pages/blog.scss';
 @import 'pages/page.scss';
-@import 'pages/single.scss';
+
 
 body{
 	font-family: $generalFont!important;
