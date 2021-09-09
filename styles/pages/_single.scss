@@ -11,12 +11,17 @@
 		background-color: $dark-purple!important;
 	}
 
+	.entry-title{
+		
+			color: $dark-purple!important;
+	}
+
 	.entry-content{
 		font-family:$generalFont!important;
 	}
 }
 
-.single-post{
+.single-post, .page{
 	.entry-title{
 		
 			color: $dark-purple!important;
