@@ -1,0 +1,27 @@
+.header-footer-group{
+	background:$dark-purple!important;
+	color: $white;
+	a{
+		color: $white;
+	}
+}
+.wp-block-search__label{
+		display: none!important;
+	}
+.wp-block-search__inside-wrapper {
+
+	.wp-block-search__input {
+		color:$white!important;
+		border-radius:10px;
+		background-color:$dark;
+	}
+
+	.wp-block-search__button{
+		border-radius:10px;
+		background-color:$red;
+		color: $white;
+		border:none;
+		
+	}
+}
+
