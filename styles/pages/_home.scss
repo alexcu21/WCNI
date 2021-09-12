@@ -54,10 +54,10 @@ $small-padding: 10px 30px;
 
 	.wp-block-group:nth-child(1){
 		position: relative;
-		top:20%;
+		top:15%!important;
 		right: -15%;
-	}
 
+	}
 
 	// Logo y bienvenida al wordcamp 
 	.wp-block-group:nth-child(2){
@@ -66,6 +66,7 @@ $small-padding: 10px 30px;
 		margin: 0 !important;
 		width: 100vw !important;
 		max-width: 100vw !important;
+
 		.wp-block-query{
 			width: inherit !important;
 			max-width: inherit !important;
@@ -76,7 +77,21 @@ $small-padding: 10px 30px;
 			border-radius: 8px;
 			color: $dark-purple;
 		}
+		.post-326{
+
+			.wp-block-columns{
+				display: flex;
+			justify-content: center!important;
+
+				.wp-block-column{
+					flex-basis: 33.33%!important;
+					margin: 3rem!important;
+				}
+			}
+		}
+
 	}
+
 	// Enlaces de interes
 	.wp-block-columns:nth-child(3){
 		padding: $page-padding;   
@@ -123,11 +138,12 @@ $small-padding: 10px 30px;
 		margin: 0 !important;
 		width: 100vw !important;
 		max-width: 100vw !important;
-		height: 45vh;
+		height: 60vh!important;
 		background-image: url('https://nicaragua.wordcamp.org/2021/files/2021/08/banner-bg.jpeg');
 		background-position: center;
 	    background-size: cover;
 	    background-repeat: no-repeat;
+
 	    h4{
 	    	color: $white !important;
 	    	text-align: center;
@@ -145,7 +161,11 @@ $small-padding: 10px 30px;
 	    		color: $dark-purple !important;
 	    	}
 	    }
+
+	    
 	}	
+
+
 
 	// Título posts
 	h3{
@@ -198,6 +218,23 @@ $small-padding: 10px 30px;
 			time{
 				grid-row: 2 / 3;
 				font-weight: 500;
+			}
+		}
+	}
+
+	.wordcamp-sponsors{
+		display: flex;
+		justify-content: space-between;
+		max-width:1000px!important;
+		width:100vw!important;
+		li{
+			.wordcamp-sponsor{
+				max-width: 600px;
+			}
+			margin:0 3rem;
+			.wordcamp-image__featured-image{
+				max-width: 1000px!important;
+				width: 400px!important;
 			}
 		}
 	}
@@ -277,7 +314,6 @@ $small-padding: 10px 30px;
 	
 	.wp-block-column {
 		text-align: center!important;
-    	width: 100vw;
     	margin: 0 auto!important;
     	position: relative;
     	left: unset!important;
@@ -291,14 +327,22 @@ $small-padding: 10px 30px;
   }
 
 	  .post-326{
+
 	  	.wp-block-column{
 	  		padding: 0 2rem!important;
 	  	}
+
+	  	.wp-block-columns{
+	  	display: block!important;
 	  }
+	  }
+
+
 
 	  .wp-block-columns:nth-child(3){
 	  	padding: 0!important;
 	  	p{font-size: 1.5rem;}
+
 	  }
 
 	  .wp-block-group:nth-child(4){
