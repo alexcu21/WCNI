@@ -129,7 +129,7 @@ $small-padding: 10px 30px;
 			}
 		}
 	}
-	// Logo y bienvenida al wordcamp 
+	// unete a la comunidad
 	.wp-block-group:nth-child(4){
 		display: grid;
 		justiy-content: center;
@@ -241,7 +241,7 @@ $small-padding: 10px 30px;
 
 	//responsive styles
 
-	@media screen and (max-width: 375px) {
+	//@media screen and (max-width: 375px) {
 		
 		header{
 			padding: 0!important;
@@ -262,6 +262,7 @@ $small-padding: 10px 30px;
     	left: unset!important;
     	top: 10%!important;
     	font-size: 0.5rem!important;
+    	padding:0!important;
 	}
 	
 	.wp-block-column {
@@ -310,8 +311,10 @@ $small-padding: 10px 30px;
 			.wp-block-columns{
 				display: inline-block!important;
 
+
 				.wp-block-column{
 					margin: 0rem!important;
+					padding: 1rem!important;
 				}
 			}
 		}
@@ -360,6 +363,6 @@ $small-padding: 10px 30px;
 			}
 		}
 		
-	}
+	//}
 
 }
