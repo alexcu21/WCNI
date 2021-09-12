@@ -2,9 +2,20 @@
 	.wordcamp-organizers {
 	    position: relative;
 	    margin-bottom: 45px;
-	    display: flex;
+	    display: grid;
+	     grid-template-columns: 1fr 1fr 1fr;
 	    flex-direction: row;
 	    justify-content: space-between;
+	    .wordcamp-organizers__post{
+	    	    display: flex;
+    			flex-direction: column-reverse;
+    			.wordcamp-organizers__title{
+    				margin-top: 0.5rem;
+    				padding:1rem;
+    				background-color: $red;
+    				color: $white;
+    			}
+	    }
 	}
 
 	.wordcamp-image__avatar-container{
