@@ -241,7 +241,7 @@ $small-padding: 10px 30px;
 
 	//responsive styles
 
-	//@media screen and (max-width: 375px) {
+	@media screen and (max-width: 375px) {
 		
 		header{
 			padding: 0!important;
@@ -363,6 +363,6 @@ $small-padding: 10px 30px;
 			}
 		}
 		
-	//}
+	}
 
 }
