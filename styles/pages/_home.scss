@@ -493,6 +493,12 @@ $small-padding: 10px 30px;
 		
 		header{
 			padding: 0!important;
+			.wp-block-columns{
+				.wp-block-group__inner-container{
+					position: relative;
+					top:10rem;
+				}
+			}
 		}
 
 	.wp-block-group__inner-container{
@@ -563,6 +569,9 @@ $small-padding: 10px 30px;
 				.wp-block-column{
 					margin: 0rem!important;
 					padding: 1rem!important;
+					p{
+						font-size: 2rem!important;
+					}
 				}
 			}
 		}
@@ -573,7 +582,7 @@ $small-padding: 10px 30px;
 
 	  .wp-block-columns:nth-child(3){
 	  	padding: 0!important;
-	  	p{font-size: 1.5rem;}
+	  	p{font-size: 1.8rem;}
 
 	  }
 
