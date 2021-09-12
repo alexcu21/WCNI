@@ -489,5 +489,129 @@ $small-padding: 10px 30px;
 		
 	}
 
+	@media screen and (max-width: 1024px) {
+		
+		header{
+			padding: 0!important;
+		}
+
+	.wp-block-group__inner-container{
+		h2{
+			font-size: 3rem;
+			line-height: 1.2;
+		}
+	}
+
+	.wp-block-columns {
+		text-align: center!important;
+    	width: 100vw!important;
+    	margin: 0 auto!important;
+    	position: relative;
+    	left: unset!important;
+    	top: 10%!important;
+    	font-size: 0.5rem!important;
+    	padding:0!important;
+	}
+	
+	.wp-block-column {
+		text-align: center!important;
+    	margin: 0 auto!important;
+    	position: relative;
+    	left: unset!important;
+    	top: 10%!important;
+    	.wp-block-button{
+    		margin: 0 auto!important;
+    	}
+
+	}
+
+
+
+	.wp-block-group:nth-child(1), .wp-block-group:nth-child(2){
+		margin-top: 7rem!important;
+		top:unset!important;
+		right: unset!important;
+		left: unset!important;
+		text-emphasis: center!important;
+		padding:0!important;
+
+		.wp-block-group__inner-container{
+			width: 100vw!important;
+		
+		h2{
+			font-size: 3rem;
+			line-height: 1.2;
+		}
+
+		p{
+			font-size: 1.5rem;
+		}
+
+	}
+
+	
+  }
+
+	  .wp-block-group:nth-child(2){
+
+		.post-326{
+
+			.wp-block-columns{
+				display: inline-block!important;
+
+
+				.wp-block-column{
+					margin: 0rem!important;
+					padding: 1rem!important;
+				}
+			}
+		}
+
+	}
+
+
+
+	  .wp-block-columns:nth-child(3){
+	  	padding: 0!important;
+	  	p{font-size: 1.5rem;}
+
+	  }
+
+	  .wp-block-group:nth-child(4){
+	  	padding: 1rem!important;
+	  	height: 50vh!important;
+	  }
+
+		  .wp-block-latest-posts__list{
+		  	display: flex!important;
+		  padding:0 1.5rem!important;
+		  text-align: center;
+		  li{
+		  	margin: 0 auto;
+		  }
+	  	}
+
+		  .wordcamp-sponsors{
+			display: block!important;
+			max-width:400px!important;
+			width: 100vw!important;
+			
+			li{
+				.wordcamp-sponsor{
+					max-width: 500px;
+				}
+				
+				margin:0 auto!important;
+				a{
+					.wordcamp-image__featured-image{
+					max-width: 300px!important;
+					width: 300px!important;
+				}
+				}
+			}
+		}
+		
+	}
+
 
 }
