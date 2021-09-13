@@ -250,7 +250,7 @@ $small-padding: 10px 30px;
 					color: $accent !important
 				}
 			}
-			
+
 			.wordcamp-sponsor{
 				max-width: 500px;
 				padding:3rem;
@@ -381,10 +381,13 @@ $small-padding: 10px 30px;
 			display: block!important;
 			max-width:400px!important;
 			width: 100vw!important;
+			padding: 1rem;
 			
 			li{
+				
 				.wordcamp-sponsor{
 					max-width: 500px;
+					margin-top: 1rem!important;	
 				}
 				
 				margin:0 auto!important;
@@ -396,6 +399,14 @@ $small-padding: 10px 30px;
 				}
 			}
 		}
+
+		.wp-block-latest-posts__list{
+			li{
+				margin-top: 1rem;
+
+			}
+		}
+
 		
 	}
 
