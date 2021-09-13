@@ -37,4 +37,17 @@
 	    bottom: -45px;
 	}
 
+	@media screen and (max-width: 375px){
+		.wordcamp-organizers {
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 768px){
+		.wordcamp-organizers {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
 }
