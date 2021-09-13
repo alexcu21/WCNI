@@ -22,10 +22,10 @@
 		}
 	}
 
-	@media screen and (max-width: 375px){
+	//@media screen and (max-width: 375px){
 		.tix-attendee-list{
 			display:grid!important;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr 1fr!important;
 
 			li{
 				justify-self:stretch!important;
@@ -37,7 +37,7 @@
 				}
 			}
 		}
-	}
+	//}
 
 	@media screen and (max-width: 768px){
 		.tix-attendee-list{
