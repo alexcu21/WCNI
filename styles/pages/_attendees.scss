@@ -1,0 +1,58 @@
+.page-id-14{
+	.tix-attendee-list{
+		li{
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			margin-bottom:7rem!important;
+			img{
+				margin: 0 auto;
+				border-radius: 50%;
+				width: 10rem!important;
+				height: 10rem!important;
+				border:2px solid $red;
+			}
+			.tix-attendee-name{
+				padding-top: 0.8rem;
+				margin: 0!important;
+				font-weight: bolder;
+				color: $dark-purple;
+			}
+		}
+	}
+
+	@media screen and (max-width: 375px){
+		.tix-attendee-list{
+			display:grid!important;
+			grid-template-columns: 1fr 1fr;
+
+			li{
+				justify-self:stretch!important;
+				align-self: stretch!important;
+				place-self: center!important;
+				width: 100%!important;
+				img{
+					width: 10rem!important;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 768px){
+		.tix-attendee-list{
+			display:grid!important;
+			grid-template-columns: 1fr 1fr 1fr;
+
+			li{
+				justify-self:stretch!important;
+				align-self: stretch!important;
+				place-self: center!important;
+				width: 100%!important;
+				img{
+					width: 10rem!important;
+				}
+			}
+		}
+	}
+}
