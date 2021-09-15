@@ -13,10 +13,10 @@ nav {
 			
 			transition: $transition-all;
 			&:hover{
-				background-color: $dark-purple!important;
+				background-color: $white!important;
 				border: 2px solid $dark-purple!important;
 				border-radius: 8px;
-				color: $white !important;
+				color: $dark-purple !important;
 				text-decoration: none!important;
 			}
 		}
