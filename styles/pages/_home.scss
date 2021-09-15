@@ -242,14 +242,6 @@ $small-padding: 10px 30px;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
-		// display: grid;
-		// grid-template-columns: 1fr 1fr;
-		// grid-template-rows:auto;
-		// grid-template-areas: 
-  //   		"top top"
-  //   		"middle";
-		// row-gap: 15px;
-		// align-items: center;
 		max-width:1000px!important;
 		width:100vw!important;
 
@@ -257,7 +249,7 @@ $small-padding: 10px 30px;
 
 			border-radius: 8px;
 			background-color:$white;
-			margin: 1rem auto;
+			margin: 1rem auto!important;
 			&:hover{
 				box-shadow: $box-shadow-global;
 				a{
