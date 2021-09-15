@@ -1,5 +1,22 @@
-nav a{
-	color:$white!important;
+nav {
+	a{color:$white!important;}
+	.menu-item-279{
+		background-color: $red;
+			border: 2px solid $dark-purple!important;
+			border-radius: 8px;
+			padding:1rem;
+		a{
+			
+			transition: $transition-all;
+			&:hover{
+				background-color: $dark-purple!important;
+				border: 2px solid $dark-purple!important;
+				border-radius: 8px;
+				color: $white !important;
+				text-decoration: none!important;
+			}
+		}
+	}
 }
 
 .mobile-menu a{

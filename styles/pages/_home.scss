@@ -239,10 +239,14 @@ $small-padding: 10px 30px;
 	}
 
 	.wordcamp-sponsors{
-		display: flex;
-		justify-content: space-between;
-		max-width:1000px!important;
-		width:100vw!important;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 200px auto;
+		row-gap: 15px;
+		align-items: center;
+		grid-auto-flow: row;
+		//max-width:1000px!important;
+		//width:100vw!important;
 		li{
 
 			border-radius: 8px;
