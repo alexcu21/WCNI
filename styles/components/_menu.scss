@@ -1,11 +1,12 @@
 nav {
 	a{color:$white!important;}
 	.menu-item-279{
-		background-color: $red;
+		
+		a{
+			background-color: $red;
 			border: 2px solid $dark-purple!important;
 			border-radius: 8px;
 			padding:1rem;
-		a{
 			
 			transition: $transition-all;
 			&:hover{
