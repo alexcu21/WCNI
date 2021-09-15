@@ -239,18 +239,25 @@ $small-padding: 10px 30px;
 	}
 
 	.wordcamp-sponsors{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 200px auto;
-		row-gap: 15px;
-		align-items: center;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		// display: grid;
+		// grid-template-columns: 1fr 1fr;
+		// grid-template-rows:auto;
+		// grid-template-areas: 
+  //   		"top top"
+  //   		"middle";
+		// row-gap: 15px;
+		// align-items: center;
 		max-width:1000px!important;
 		width:100vw!important;
+
 		li{
 
 			border-radius: 8px;
 			background-color:$white;
-
+			margin: 1rem auto;
 			&:hover{
 				box-shadow: $box-shadow-global;
 				a{
