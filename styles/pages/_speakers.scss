@@ -20,6 +20,7 @@
 				.wordcamp-speakers__content{
 					order:3;
 				}
+
 			}
 			
 			.wordcamp-image__avatar-container{
@@ -29,5 +30,13 @@
 				}
 			}
 		}
+	}
+
+	@media screen and (max-width: 411px;) {
+		.wordcamp-speaker{
+				width: 35rem!important;
+				margin: 0 auto;
+		}
+
 	}
 }
