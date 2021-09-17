@@ -21,6 +21,14 @@
 					order:3;
 				}
 
+				@media screen and (max-width: 411px) {
+					.wordcamp-speaker{
+							width: 35rem;
+							margin: 0 auto;
+					}
+
+				}
+
 			}
 			
 			.wordcamp-image__avatar-container{
@@ -32,11 +40,5 @@
 		}
 	}
 
-	@media screen and (max-width: 411px) {
-		.wordcamp-speaker{
-				width: 35rem;
-				margin: 0 auto;
-		}
-
-	}
+	
 }
