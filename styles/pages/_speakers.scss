@@ -1,5 +1,12 @@
 .page-slug-speakers{
 	.wordcamp-speakers{
+		    display: flex;
+		    flex-flow: row wrap;
+		    justify-content: space-around;
+		    max-width: 100vw!important;
+		    width: 80vw!important;
+		    margin: 0 auto!important;
+		    
 		.wordcamp-post-list__post{
 			.wordcamp-speaker{
 				background-color: $pink;
