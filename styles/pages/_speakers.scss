@@ -21,13 +21,6 @@
 					order:3;
 				}
 
-				@media screen and (max-width: 411px) {
-					.wordcamp-speaker{
-							width: 35rem;
-							margin: 0 auto;
-					}
-
-				}
 
 			}
 			
@@ -39,6 +32,14 @@
 			}
 		}
 	}
+
+		@media screen and (max-width: 411px){
+				.wordcamp-speaker{
+						width: 35rem;
+						margin: 0 auto;
+				}
+
+		}
 
 	
 }
