@@ -34,11 +34,16 @@
 	}
 
 		@media screen and (max-width: 411px){
-				.wordcamp-speaker{
-						width: 35rem;
-						margin: 0 auto;
-				}
+			.wordcamp-speakers{
+				.wordcamp-post-list__post{
 
+					.wordcamp-speaker{
+							width: 35rem;
+							margin: 0 auto;
+					}
+
+				}	
+			}
 		}
 
 	
