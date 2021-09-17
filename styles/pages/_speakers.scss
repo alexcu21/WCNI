@@ -1,0 +1,33 @@
+.page-slug-speakers{
+	.wordcamp-speakers{
+		.wordcamp-post-list__post{
+			.wordcamp-speaker{
+				background-color: $pink;
+				display: flex;
+				flex-direction: column;
+				padding:3rem;
+				width: 45rem;
+				.wordcamp-speakers__title{
+					order:2;
+					margin-top: 3rem;
+					margin-left:0;
+					font-size: 3rem;
+					text-align: left;
+					a{
+						color: $dark-purple!important;
+					}
+				}
+				.wordcamp-speakers__content{
+					order:3;
+				}
+			}
+			
+			.wordcamp-image__avatar-container{
+				margin: 0 auto;
+				img{
+					border-radius:50%;
+				}
+			}
+		}
+	}
+}
