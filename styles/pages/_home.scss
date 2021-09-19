@@ -51,7 +51,7 @@ $small-padding: 10px 30px;
 		    margin: 0 auto !important;
 		    z-index: 9999;
 		}
-		
+
 		// Header red button
 		.wp-block-button__link{
 			background-color: $red;
@@ -294,6 +294,9 @@ $small-padding: 10px 30px;
 		
 		header{
 			padding: 0!important;
+			h3 {
+		    	text-align: center !important;
+			}
 		}
 
 
@@ -430,6 +433,9 @@ $small-padding: 10px 30px;
 		
 		header{
 			padding: 0!important;
+			h3 {
+		    	text-align: center !important;
+			}
 		}
 
 	.wp-block-group__inner-container{
