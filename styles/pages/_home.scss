@@ -247,13 +247,13 @@ $small-padding: 10px 30px;
 		}
 	}
 
+	//sponors area
 	.wordcamp-sponsors{
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-around;
-		max-width:1000px!important;
+		max-width:1500px!important;
 		width:100vw!important;
-
 		li{
 
 			border-radius: 8px;
@@ -267,16 +267,36 @@ $small-padding: 10px 30px;
 			}
 
 			.wordcamp-sponsor{
-				max-width: 500px;
+				max-width: 600px;
 				padding:3rem;
 			}
 			margin:0 3rem;
 			.wordcamp-image__featured-image{
-				max-width: 500px!important;
-				width: 400px!important;
+				max-width: 600px!important;
+				width: 500px!important;
 			}
 		}
 	}
+
+	.slug-nativo{
+		.wordcamp-image__featured-image-link{
+			.wordcamp-image__featured-image{
+				max-width: 400px!important;
+				width: 350px!important;
+			}
+		}
+	}
+
+	.slug-nicasource{
+			
+		.wordcamp-image__featured-image-link{
+			.wordcamp-image__featured-image{
+				max-width: 400px!important;
+				width: 300px!important;
+			}
+		}
+	}
+	
 
 	//social menu
 	.social-menu{
